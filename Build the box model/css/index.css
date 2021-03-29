@@ -4,13 +4,27 @@ body {
 }
 
 .nav-item {
-    display:inline-block;
-	width:120px;
-	height:28px;
-	line-height:28px;
-	padding-top:30px;
-	margin-left:40px;
-	color:#abb0b7;
-	font-size:18px;
-	text-align:center;
-	border-top:12px solid #2d3a4b;
+   display: inline-block;
+   width: 100px;
+   height: 30px;
+   line-height: 30px;
+   padding-top: 32px;
+   margin-left: 40px;
+   color: grey;
+   font-size: 20px;
+   text-align: center;
+   border-top: 15px solid black;
+}
+
+.nav-item:hover {
+    border-top: 15px solid yellow;
+}
+
+h {
+    font-size: 40px;
+    color: white;
+    font-family: "MicrosoftYaHeiUI";
+    text-align: center;
+    width: 800px;
+    margin: 200px auto 0;
+}
