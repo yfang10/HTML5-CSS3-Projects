@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #000000;
     font-family: "MicrosoftYaHeiUI-Bold";
 }
 
@@ -10,21 +10,41 @@ body {
    line-height: 30px;
    padding-top: 32px;
    margin-left: 40px;
-   color: grey;
+   color: #abb0b7;
    font-size: 20px;
    text-align: center;
-   border-top: 15px solid black;
+   border-top: 15px solid #000000;
 }
 
 .nav-item:hover {
-    border-top: 15px solid yellow;
+    border-top: 15px solid #f2c94c;
 }
 
 h1 {
-    font-size: 40px;
-    color: white;
-    font-family: "MicrosoftYaHeiUI";
+    font: 40px "MicrosoftYaHeiUI";
+    color: #FFFFFF;
     text-align: center;
-    width: 800px;
+    width: 1000px;
     margin: 200px auto 0;
+}
+
+p { 
+    font: 20px "MicrosoftYaHeiUI";
+    color: #aab0b6;
+    text-align: center;
+    width: 1000px;
+    margin: 40px auto 0;
+}
+
+.btn { 
+    font: 30px "MicrosoftYaHeiUI";
+    color: #2d3a4b;
+    text-align: center;
+    background-color: #f2c94c;
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    margin: 60px auto 0;
+
+    
 }
