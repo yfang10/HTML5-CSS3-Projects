@@ -3,3 +3,8 @@ body {
     font-family: "MicrosoftYaHeiUI-Bold";
 }
 
+.nav-item {
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+}
