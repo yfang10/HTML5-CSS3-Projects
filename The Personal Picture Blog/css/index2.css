@@ -1,0 +1,235 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::after{
+	clear:both;
+	display:block;
+	content:"";
+}
+
+.top-btn {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position:fixed;
+    right: 20px;
+    bottom: 150px;
+    z-index: 1;
+    text-align: center;
+    background-color: #7f7f7f;
+}
+
+.top-btn i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(../img/回到顶部.png);
+}
+
+.header {
+    position: relative;
+}
+
+.header .bg {
+    width: 100%;
+    height: 800px;
+}
+
+.header-nav {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 600%);
+    width: 1200px;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.header .title {
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.header-nav .logo {
+    width: 126px;
+    height: 26px;
+    margin: 29px 0 0 25px;
+} 
+
+.header-nav .nav {
+    margin: 36px 38px 0 0;
+    height: 12px;
+}
+
+.header-nav .nav i {
+    display: block;
+    width: 13px;
+    height: 12px;
+    margin-left: 16px;
+}
+
+.header-nav .nav i:nth-of-type(1){
+	background:url(../img/bag.png)
+}
+.header-nav .nav i:nth-of-type(2){
+	background:url(../img/列表.png)
+}
+.header-nav .nav i:nth-of-type(3){
+	background:url(../img/search.png)
+}
+
+.main {
+    width: 1200px;
+    margin: 70px auto 0 auto; 
+}
+
+
+.main .tips {
+    margin: 70px auto 0 auto;
+    width: 250px;
+}
+
+.main .tips li {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+    border: 2px solid #f2f2f2;
+    margin-right: 8px;
+    font-size: 15px;
+    color: #686868;
+}
+
+.main .tips li:last-of-type{
+	margin:0;
+} 
+
+.main .pics {
+    margin-top: 18px;
+}
+
+.main .pics li {
+    margin: 5px;
+    position: relative;
+}
+
+.main .pics li .cover {
+    display: none;
+    width: 376px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(55, 172, 162, .8);
+    
+}
+
+.pics li:hover .cover {
+    display: block;
+}
+
+.pics .content {
+    border: 1px solid #ffffff;
+    width: 350px;
+    height: 190px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.pics .content p {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 96px;
+}
+
+.pics .content i {
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background: url(../img/全屏.png);
+}
+
+.main .pics img {
+    height: 250px;
+    width: 376px;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #232323;
+    overflow: hidden;
+}
+
+.footer .iconlist {
+    height: 20px;
+    margin: 44px auto 0 auto;
+    width: 260px;
+}
+
+.footer .iconlist i {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-right: 20px;
+}
+.footer .iconlist i:nth-of-type(1){
+	background:url(../img/contact.png)
+}
+.footer .iconlist i:nth-of-type(2){
+	background:url(../img/contact1.png)
+}
+.footer .iconlist i:nth-of-type(3){
+	background:url(../img/dribble.png)
+}
+.footer .iconlist i:nth-of-type(4){
+	background:url(../img/facebook.png)
+}
+.footer .iconlist i:nth-of-type(5){
+	background:url(../img/google.png)
+}
+.footer .iconlist i:nth-of-type(6){
+	background:url(../img/ins.png)
+}
+.footer .iconlist i:last-of-type{
+    margin: 0;
+	background:url(../img/twitter.png)
+}
+
+.footer .description {
+    font-size: 15px;
+    color: #919191;
+    text-align: center;
+    margin-top: 21px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.footer .contact {
+    font-size: 12px;
+    color: #919191;
+    height: 20px;
+    line-height: 20px;
+    margin: 25px auto 0 auto;
+    width: 222px;
+}
+
+.footer .contact li {
+    margin-right: 10px;
+}
+
+.footer .contact li:last-of-type {
+    margin: 0;
+}
+
