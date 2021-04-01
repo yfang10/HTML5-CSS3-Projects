@@ -1,3 +1,11 @@
+.page {
+   margin: 300px 500px;
+}
+
+.title {
+    font-size: 50px;
+}
+
 table {
     margin: 100 auto;
 }
