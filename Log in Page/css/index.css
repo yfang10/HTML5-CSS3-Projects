@@ -1,0 +1,117 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.page {
+    width: 800px;
+    height: 800px;
+    background: url("../img/login-form.png") no-repeat;
+    margin: 60px auto;
+    overflow: hidden;
+}
+
+.box {
+    height: 474px;
+    width: 475px;
+    margin: 94px auto;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 32px;
+    font-family: "ProximaNova-Bold";
+    height: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #36383c;
+    margin-top: 66px;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 22px;
+    font-family: "ProximaNova-Light";
+    height: 28px;
+    line-height: 28px;
+    color: #7c818b;
+    text-align: center;
+}
+
+form {
+    margin-top: 43px;
+}
+
+form .pic {
+    width: 385px;
+	height: 169px;
+    background-color: #e5e7e9;
+    box-shadow: 0px 2px 0px 0px #ffffff inset 0px 1px 3px 0px rgba(23, 16, 25, 0.45);
+    margin:0 auto;
+    border: 1px solid #adaeb0;
+    border-radius: 6px;
+    position: relative;
+}
+
+.pic .user {
+    width:32px;
+	height:22px;
+	position:absolute;
+    top:31px;
+	left:24px;
+    display: block;
+    background: url("../img/mail-icon.png");
+}
+
+.pic .pw {
+    width:24px;
+	height:32px;
+	position:absolute;
+	top:111px;
+	left:28px;
+	display:block;
+	background:url(../img/password-icon.png);
+}
+
+.pic input {
+    width:315px;
+	height:83px;
+	border: none;
+    background-color:rgba(0,0,0,0);
+    padding-left: 70px;
+    font-size: 22px;
+    font-family: "ProximaNova-Regular";
+   outline: none;
+}
+
+.pic input:first-of-type {
+    border-bottom: 1px solid #bec0c2;
+}
+
+.pic input:last-of-type {
+    border-bottom: 1px solid #ffffff;
+}
+
+form .btn {
+    display: block;
+    width:385px;
+	height:72px;
+    margin: 27px auto 0 auto;
+    font-family: "ProximaNova-Bold";
+	font-size: 32px;
+    color:#ffffff;
+    background:url(../img/btn-bg1.png);
+    border: 1px solid #2a8b7b;
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px 0px	rgba(0, 0, 0, 0.3) inset 0px 2px 0px 0px rgba(255, 255, 255, 0.4);
+    outline: none;
+}
