@@ -30,3 +30,7 @@ header nav .li:hover {
     color: #0089cf;
     border-bottom: 4px solid #0089cf;
 }
+
+header .menu {
+    margin: 37px 0 0 0;
+}
