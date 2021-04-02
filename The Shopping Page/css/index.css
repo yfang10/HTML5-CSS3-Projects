@@ -34,3 +34,635 @@ header nav .li:hover {
 header .menu {
     margin: 37px 0 0 0;
 }
+
+header .menu li {
+    margin-right: 28px;
+}
+
+.menu li i {
+    width: 16px;
+    height: 18px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.menu li span {
+    height: 18px;
+    line-height: 18px;
+}
+
+.menu li:nth-of-type(1) i {
+    background-image: url("../img/search.png");
+}
+
+.menu li:nth-of-type(2) i {
+    background-image: url("../img/icon.png");
+}
+
+.menu li:nth-of-type(3) i {
+    background-image: url("../img/shopbag.png");
+}
+
+/* 1 */
+main .page1 {
+    height: 610px;
+}
+
+main .page1 .show-img {
+    margin: 157px 0 0 121px;
+}
+
+.page1 .introduce {
+    width: 260px;
+    height: 400px;
+    margin: 58px 0 0 92px;
+}
+
+.page1 .introduce .like {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #e4e4e4;
+}
+
+.introduce .like i {
+    display: block;
+    width: 16px;
+    height: 14px;
+    background: url("../img/heart.jpg");
+    margin: calc(50% - 7px) 0 0 calc(50% - 8px);
+}
+
+.introduce .brand {
+    margin-top: 43px;
+    font-family: medium;
+    font-size: 25px;
+    height: 17px;
+    width: 17px;
+    color: #333333;
+}
+
+.introduce .product-price {
+    height: 16px;
+    line-height: 16px;
+    font-family: medium;
+    font-size: 18px;
+    color: #666666;
+    margin-top: 12px;
+}
+
+.introduce .color {
+    margin-top: 24px;
+    font-family: medium;
+    font-size: 14px;
+}
+
+.introduce .color p {
+    height: 11px;
+    line-height: 11px;
+}
+
+.color p span:nth-of-type(1) {
+    color: #666666;
+}
+
+.color p span:nth-of-type(2) {
+    color: #0089cf;
+}
+
+.color .img div {
+    width: 78px;
+    height: 78px;
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+    margin-top: 14px;
+}
+
+.color .img div:nth-of-type(1) {
+    margin-right: 10px;
+}
+
+.img div img {
+    margin: -1px 0 0 -1px;
+}
+
+
+.size p {
+    height: 9px;
+    line-height: 9px;
+    font-family: roboto;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.size .btn .size-btn {
+    border: 1px solid #e4e4e4;
+    width: 123px;
+	height: 48px;
+	font-family: medium;
+	font-size: 14px;
+	color: #666666;
+}
+
+.size-btn span{
+	margin: 19px 0 0 19px;
+	height: 11px;
+	line-height: 11px;
+}
+
+.size-btn i{
+	width: 11px;
+	height: 8px;
+	margin: 20px 0 0 54px;
+	background: url(../img/arrow-down.png) no-repeat center center;
+}
+
+.size .btn .add-btn{
+	width: 125px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #333333;
+	margin-left: 10px;
+	font-family: medium;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.size .btn{
+	margin-top: 15px;
+}
+
+
+/* 2 */
+main .page2{
+	height: 660px;
+	overflow: hidden;
+	background: url(../img/page2-bg.png) no-repeat -17px -91px;
+}
+
+.page2 h3{
+	height: 19px;
+	line-height: 19px;
+	font-family: medium;
+	font-size: 25px;
+	color: #ffffff;
+	margin: 261px 0 0 51px;
+}
+
+.page2 p{
+	line-height: 25px;
+	font-family: roboto;
+	font-size: 14px;
+	color: #ffffff;
+	margin: 21px 0 0 52px;
+	width: 364px;
+}
+
+
+/* 3 */
+main .page3{
+	height:761px;
+	background-color: #c8cfdc;
+}
+
+.goods li{
+	width: 243px;
+	height: 372px;
+	margin-right: 16px;
+}
+
+.goods li{
+	background-color: #ffffff;
+}
+
+.goods li:nth-of-type(1){
+	background-color: #383d68;
+}
+
+.goods li:nth-of-type(1) img{
+	margin: 136px 0 0 26px;
+}
+
+.goods li:nth-of-type(1) .name{
+	height: 13px;
+	line-height: 13px;
+	font-family: medium;
+	font-size: 16px;
+	margin-top: 40px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.goods li:nth-of-type(1) .describe{
+	height: 10px;
+	line-height: 10px;
+	font-family: roboto;
+	font-size: 12px;
+	margin-top: 12px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.goods li:nth-of-type(1) .price{
+	height: 14px;
+	line-height: 14px;
+	font-family: medium;
+	font-size: 16px;
+	color: #ffffff;
+	margin-top: 21px;
+	text-align: center;
+}
+
+/* 第二个 */
+
+.goods li:nth-of-type(2) img{
+	margin: 147px 0 0 16px;
+}
+
+.goods li:nth-of-type(2) .name{
+	height: 13px;
+	line-height: 13px;
+	font-family: medium;
+	font-size: 16px;
+	margin-top: 39px;
+	text-align: center;
+	color: #333333;
+}
+
+.goods li:nth-of-type(2) .describe{
+	height: 11px;
+	line-height: 11px;
+	font-family: roboto;
+	font-size: 12px;
+	margin-top: 11px;
+	text-align: center;
+	color: #666666;
+}
+
+.goods li:nth-of-type(2) .price{
+	height: 14px;
+	line-height: 14px;
+	font-family: medium;
+	font-size: 16px;
+	color: #333333;
+	margin-top: 21px;
+	text-align: center;
+}
+
+
+/* 第三个 */
+
+.goods li:nth-of-type(3){
+	position: relative;
+	width: 244px;
+}
+
+.goods li:nth-of-type(3) img{
+	margin: 147px 0 0 18px;
+}
+
+.goods li:nth-of-type(3) .name{
+	height: 13px;
+	line-height: 13px;
+	font-family: medium;
+	font-size: 16px;
+	margin-top: 38px;
+	text-align: center;
+	color: #333333;
+}
+
+.goods li:nth-of-type(3) .describe{
+	height: 11px;
+	line-height: 11px;
+	font-family: roboto;
+	font-size: 12px;
+	margin-top: 9px;
+	text-align: center;
+	color: #666666;
+}
+
+.goods li:nth-of-type(3) .price{
+	height: 14px;
+	line-height: 14px;
+	font-family: medium;
+	font-size: 16px;
+	color: #333333;
+	margin-top: 19px;
+	text-align: center;
+}
+
+.goods li:nth-of-type(3) .price span:nth-of-type(2){
+	color: #fc7070;
+	text-decoration: line-through;
+}
+
+.goods li .tag{
+	position: absolute;
+	width: 70px;
+	height: 18px;
+	line-height: 18px;
+	top: 28px;
+	left: 87px;
+	background-color: #0089cf;
+	border-radius: 8px;
+	font-family: medium;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	
+}
+
+.goods li .iconbox{
+	width: 192px;
+	height: 13px;
+	position: absolute;
+	top: 31px;
+	left: 26px;
+}
+
+.iconbox i{
+	width: 15px;
+	height: 13px;
+	background-color: red;
+}
+
+.iconbox .like{
+	background: url(../img/heart.png) no-repeat;
+}
+
+.iconbox .cart{
+	background: url(../img/icon.png) no-repeat;
+}
+
+
+/* 第四个 */
+
+.goods li:nth-of-type(4){
+	position: relative;
+}
+
+.goods li:nth-of-type(4) img{
+	margin: 116px 0 0 19px;
+}
+
+.goods li:nth-of-type(4) .name{
+	height: 15px;
+	line-height: 15px;
+	font-family: medium;
+	font-size: 16px;
+	margin-top: 37px;
+	text-align: center;
+	color: #333333;
+}
+
+.goods li:nth-of-type(4) .describe{
+	height: 13px;
+	line-height: 13px;
+	font-family: roboto;
+	font-size: 12px;
+	margin-top: 9px;
+	text-align: center;
+	color: #666666;
+}
+
+.goods li:nth-of-type(4) .price{
+	height: 14px;
+	line-height: 14px;
+	font-family: medium;
+	font-size: 16px;
+	color: #333333;
+	margin-top: 19px;
+	text-align: center;
+}
+
+.goods li:nth-of-type(5){
+	overflow: hidden;
+	margin-right: 0;
+}
+
+.goods li:nth-of-type(5) .name{
+	height: 11px;
+	line-height: 11px;
+	font-family: medium;
+	font-size: 12px;
+	margin-top: 32px;
+	text-align: center;
+}
+
+.goods li:nth-of-type(5) .type{
+	height: 34px;
+	line-height: 34px;
+	margin-top: 22px;
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 48px;
+}
+
+.goods li:nth-of-type(5) img{
+	margin: 20px 0 0 -51px;
+}
+
+
+/* 第二行第一个*/
+
+.goods2 li:nth-of-type(1){
+	width: 502px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.goods2 li:nth-of-type(1) .news{
+	position: absolute;
+	top: 28px;
+	left: 277px;
+}
+
+.goods2 li:nth-of-type(1) .imgbox{
+	width: 242px;
+	height: 372px;
+	overflow: hidden;
+}
+
+.goods2 li:nth-of-type(1) img{
+	margin: -5px 0 0 -3px;
+}
+
+.goods2 li:nth-of-type(1) .detail{
+	width: 225px;
+	margin-left: 35px;
+}
+
+.goods2 li:nth-of-type(1) .p1{
+	height: 12px;
+	line-height: 12px;
+	font-family: medium;
+	font-size: 16px;
+	color: #333333;
+	margin-top: 113px;
+}
+
+.goods2 li:nth-of-type(1) .p2{
+	height: 12px;
+	line-height: 12px;
+	font-family: roboto;
+	font-size: 12px;
+	olor: #666666;
+	margin-top: 11px;
+}
+
+.goods2 li:nth-of-type(1) .p3{
+	font-family: roboto;
+	font-size: 10px;
+	line-height: 20px;
+	color: #666666;
+	margin-top: 9px;
+	width: 192px;
+}
+
+.goods2 li:nth-of-type(1) .price{
+	height: 15px;
+	line-height: 15px;
+	font-family: medium;
+	font-size: 16px;
+	color: #333333;
+	margin-top: 15px;
+}
+
+/*第二行第二个 */
+
+.goods2 li:nth-of-type(2){
+	width: 503px;
+	margin-left: 17px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.goods2 li:nth-of-type(2) .news{
+	position: absolute;
+	top: 28px;
+	left: 230px;
+}
+
+.goods2 li:nth-of-type(2) .imgbox{
+	width: 100%;
+	height: 275px;
+	overflow: hidden;
+}
+
+.goods2 li:nth-of-type(2) .imgbox img{
+	margin-top: -29px;
+}
+
+.goods2 li:nth-of-type(2) .p1{
+	height: 14px;
+	line-height: 14px;
+	font-family: medium;
+	font-size: 16px;
+	margin-top: 26px;
+	color: #333333;
+	text-align: center;
+}
+
+.goods2 li:nth-of-type(2) .p2{
+	height: 13px;
+	line-height: 13px;
+	font-family: roboto;
+	font-size: 12px;
+	text-align: center;
+	color: #666666;
+	margin-top: 10px;
+}
+
+.goods2 li:nth-of-type(2) .price{
+	height: 15px;
+	line-height: 15px;
+	font-family: medium;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 19px;
+}
+
+/* 第二行第三个 */
+
+.goods2 li:nth-of-type(3){
+	width:243px;
+	margin-left:13px;
+	background-color:#333333;
+	color: #ffffff;
+}
+
+.goods2 li:nth-of-type(3) .brand{
+	height: 9px;
+	line-height: 9px;
+	font-family: medium;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 40px;
+}
+
+.goods2 li:nth-of-type(3) img{
+	margin: 36px auto;
+	display: block;
+}
+
+.goods2 li:nth-of-type(3) .detail{
+	font-family: roboto;
+	font-size: 12px;
+	line-height: 25px;
+	margin: 23px auto 0 auto;
+	width: 200px;
+}
+
+.goods2 li:nth-of-type(3) .btn{
+	font-family: medium;
+	font-size: 12px;
+	line-height: 12px;
+	width: 200px;
+	margin: 17px auto 0 auto;
+}
+
+.goods2 li:nth-of-type(3) .right{
+	width: 5px;
+	height: 8px;
+	background: url(../img/arrow.png);
+	margin-left: 10px;
+}
+
+
+/* 4 */
+main .page4{
+	height: 660px;
+	overflow: hidden;
+}
+
+.page4 .p1{
+	font-family: medium;
+	font-size: 14px;
+	margin: 109px 0 0 51px;
+	height: 11px;
+	line-height: 11px;
+	color: #666666;
+}
+
+.page4 .p2{
+	margin: 10px 0 0 51px;
+	height: 17px;
+	line-height:17px;
+	font-family: medium;
+	font-size: 25px;
+	color: #333333;
+}
+
+.page4 .imglist{
+	margin: 43px 0 0 51px;
+}
+
+.page4 .imglist li{
+	margin-right: 20px;
+}
+
+.page4 .imglist li:last-of-type{
+	margin-right: 0;
+}
