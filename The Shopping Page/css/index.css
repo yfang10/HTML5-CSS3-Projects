@@ -4,14 +4,29 @@
     margin: 0 auto;
 }
 
-.header {
+header {
     height: 90px;
     overflow: hidden;
     font-family: condensed;
 }
 
-.header .logo {
+header .logo {
     height: 50px;
     width: 50px;
     margin: 20px 0 0 20px;
+}
+
+header nav {
+    height: 78px;
+    line-height: 78px;
+    margin: 8px 0 0 30px;
+}
+
+header nav .li {
+    margin-right: 40px;
+}
+
+header nav .li:hover {
+    color: #0089cf;
+    border-bottom: 4px solid #0089cf;
 }
