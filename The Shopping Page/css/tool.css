@@ -1,0 +1,30 @@
+/* 浮动样式 */
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/* 引入字体文件 */
+@font-face {
+	font-family:condensed;
+	src: url("../font/DINNextLTPro-Condensed_0.otf");
+}
+@font-face {
+	font-family:medium;
+	src: url("../font/DINNextLTPro-MediumCond_0.otf");
+}
+@font-face {
+	font-family:roboto;
+	src: url("../font/Roboto-Light.ttf");
+}
+@font-face {
+	font-family:times;
+	src: url("../fontr/times.otf");
+}
